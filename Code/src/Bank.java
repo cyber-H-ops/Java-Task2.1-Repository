@@ -14,6 +14,9 @@ public class Bank {
 
         int truncatedTotal = (int) total;
         int roundedTotal = (int) Math.round(total);
+
+        System.out.println("-- Report --");
+        System.out.println("Customer Name: " + customerName);
         input.close();
     }
 }

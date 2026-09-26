@@ -17,6 +17,8 @@ public class Bank {
 
         System.out.println("-- Report --");
         System.out.println("Customer Name: " + customerName);
+        System.out.println("Deposit: " + deposit);
+        System.out.println("Interest (exact): " + interest);
         input.close();
     }
 }

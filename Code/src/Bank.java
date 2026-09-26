@@ -6,6 +6,8 @@ public class Bank {
 
         System.out.println("Enter customer information and the deposit amount (whole number): ");
         double rate = 0.055;
+        String customername = input.nextLine();
+        int deposit = input.nextInt();
         input.close();
     }
 }

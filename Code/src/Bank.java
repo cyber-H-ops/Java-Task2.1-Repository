@@ -11,6 +11,9 @@ public class Bank {
 
         double interest = deposit * rate;
         double total = deposit + interest;
+
+        int truncatedTotal = (int) total;
+        int roundedTotal = (int) Math.round(total);
         input.close();
     }
 }

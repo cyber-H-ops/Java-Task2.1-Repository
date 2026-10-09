@@ -1,10 +1,8 @@
 import java.util.Scanner;
-
 public class Bank {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        System.out.println("Enter customer information and the deposit amount (whole number): ");
+        System.out.println("Enter customer information and the deposit amount (whole number):");
         double rate = 0.055;
         String customerName = input.nextLine();
         int deposit = input.nextInt();
@@ -19,6 +17,8 @@ public class Bank {
         System.out.println("Deposit: " + deposit);
         System.out.println("Interest (exact): " + interest);
         System.out.println("Total (exact): " + total);
+        System.out.println("Total (shortened): " + truncatedTotal);
+        System.out.println("Total (rounded): " + roundedTotal);
         input.close();
     }
 }
